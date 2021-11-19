@@ -14,10 +14,10 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-
-#include <Windows.h>
+#include <linux_dependencies.h>
 #include <thread>
 #include <time.h>
+#include <sys/time.h>
 
 #include "main_config.h"
 #include "quadcopter.h"
@@ -56,9 +56,9 @@ int main(int argc, char *argv[])
 		{
 #endif
 			// frame rate limiter start
-			LARGE_INTEGER start, finish, freq;
-			QueryPerformanceFrequency(&freq);
-			QueryPerformanceCounter(&start);
+			timeval start, finish;
+			LARGE_INTEGER start, finish;
+			gettimeofday(&start, NULL);
 
 			// render the scene
 #ifdef MAIN_RENDER_TYPE_IRRLICHT
@@ -74,8 +74,8 @@ int main(int argc, char *argv[])
 			// another renderer
 #endif
 			// frame rate limiter end
-			QueryPerformanceCounter(&finish);
-			unsigned int execution_time_is_us = (unsigned int) ((finish.QuadPart - start.QuadPart)*1000000/freq.QuadPart);
+			gettimeofday(&finish, NULL);
+			unsigned int execution_time_is_us = (unsigned int) ((finish.tv_sec - start.tv_sec)/1000000);
 			unsigned int executions_time_target_us = 1000000/MAIN_RENDERER_FRAMES_SEC;
 			if(executions_time_target_us > execution_time_is_us)
 			{

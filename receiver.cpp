@@ -15,10 +15,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
 
-#include <Windows.h>
 #include "config.h"
 #include "mathHelp.h"
 #include "receiver.h"
+#include "linux/input-event-codes.h"
+#include <stdint.h>
+#include <ncurses.h>
+#include <thread>
+
 
 receiver::receiver()
 {
@@ -36,6 +40,8 @@ receiver::~receiver()
 
 void receiver::get_desired_theta(Vector3d &theta_d)
 {
+	std::thread t1(keypressed, NULL);
+	t1.join();
 	// zero signals in case no input or blocked
 	theta_d(0) = RECEIVER_PWM_ZERO_SIGNAL;
 	theta_d(1) = RECEIVER_PWM_ZERO_SIGNAL;
@@ -45,21 +51,21 @@ void receiver::get_desired_theta(Vector3d &theta_d)
 	if(this->output_blocked == false)
 	{
 		// roll (A and D)
-		if(keypressed(0x41))
+		if(keypressed() == 'q')
 			theta_d(0) -= this->roll_pwm;
-		else if(keypressed(0x44))
+		else if(keypressed() == 'd')
 			theta_d(0) += this->roll_pwm;
 
 		// pitch (W and S)
-		if(keypressed(0x57))
+		if(keypressed() == 'z')
 			theta_d(1) += this->pitch_pwm;
-		else if(keypressed(0x53))
+		else if(keypressed() == 's')
 			theta_d(1) -= this->pitch_pwm;
 
 		// yaw (Q and E)
-		if(keypressed(0x51))
+		if(keypressed() == 'a')
 			theta_d(2) -= this->yaw_pwm;
-		else if(keypressed(0x45))
+		else if(keypressed() == 'e')
 			theta_d(2) += this->yaw_pwm;
 	}
 
@@ -77,10 +83,10 @@ void receiver::get_desired_throttle(double &throttle)
 	if(this->output_blocked == false)
 	{
 		// climb (+)
-		if(keypressed(VK_OEM_PLUS))
+		if(keypressed() == 'f')
 			throttle += this->throttle_pwm;
 		// sink (-)
-		else if(keypressed(VK_OEM_MINUS))
+		else if(keypressed() == 'c')
 			throttle -= this->throttle_pwm;
 	}
 
@@ -92,13 +98,19 @@ void receiver::block_receiver(bool blocked)
 	this->output_blocked = blocked;
 }
 
-bool receiver::keypressed(int keyvalue)
+/*bool receiver::keypressed(int keyvalue)
 {
-	SHORT tabKeyState = GetAsyncKeyState(keyvalue);
+	int16_t tabKeyState = getch();
 
 	// test high bit - if set, key was down when GetAsyncKeyState was called
 	if(( 1 << 16 ) & tabKeyState)
 		return true;
 
 	return false;
+}*/
+
+char receiver::keypressed()
+{
+	char tabKey = getch();
+	return tabKey;
 }

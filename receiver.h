@@ -50,7 +50,7 @@ class receiver
 		bool output_blocked;
 
 		// functions
-		bool keypressed(int keyvalue);
+		char keypressed();
 };
 
 #endif
