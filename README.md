@@ -1,3 +1,8 @@
+# Ne pas oublier de rajouter les 2 librairies Eigen et Irrlicht (Pas possible à rajouter
+# Créer une nouvelle branche pour votre code 
+
+
+
 # quadcopter_simulation
 This is a C++ Real-Time Quadcopter Simulation. It calculates the flight of the quadcopter by solving its differential equation. The quadcopter includes four noisy sensors: accelerometer, gyroscope, magnetometer and barometer. The frame mode is X, but it can be changed to +. The sensor fusion uses a 1st order complementary filter, the angle stabilizer consist of two concatenated PID controllers, likewise the altitude control. The sensors are currently called 200 times per second, the user input is taken from the keyboard and updated 50 times per second.
 
