@@ -1,0 +1,2 @@
+﻿accelerometer.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  quadcopter_simulation.vcxproj -> C:\Users\Adrien\Downloads\quadcopter-simulation-master\quadcopter-simulation-master\quadcopter_simulation\Debug\quadcopter_simulation.exe
