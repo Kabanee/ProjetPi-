@@ -15,7 +15,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
 
-#include <Windows.h>
+//#include <Windows.h>
 #include <thread>
 #include <time.h>
 
