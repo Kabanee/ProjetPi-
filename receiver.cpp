@@ -15,10 +15,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
 
-#include <Windows.h>
+//#include <Windows.h>
 #include "config.h"
 #include "mathHelp.h"
 #include "receiver.h"
+#include <iostream>
+#include <SFML/Main.hpp>
+#include <SFML/Graphics.hpp>
+#include <chrono>
+#include <thread>
 
 receiver::receiver()
 {
@@ -34,6 +39,8 @@ receiver::~receiver()
 {
 }
 
+
+
 void receiver::get_desired_theta(Vector3d &theta_d)
 {
 	// zero signals in case no input or blocked
@@ -44,23 +51,54 @@ void receiver::get_desired_theta(Vector3d &theta_d)
 	// only roll and pitch
 	if(this->output_blocked == false)
 	{
+
 		// roll (A and D)
-		if(keypressed(0x41))
+		if(keypressed(0x51)) //0x41 pour A donc 0x51 pour Q
 			theta_d(0) -= this->roll_pwm;
 		else if(keypressed(0x44))
 			theta_d(0) += this->roll_pwm;
 
 		// pitch (W and S)
-		if(keypressed(0x57))
+		if(keypressed(0x5A))//0x57 pour W donc 0x5A pour Z
 			theta_d(1) += this->pitch_pwm;
 		else if(keypressed(0x53))
 			theta_d(1) -= this->pitch_pwm;
 
 		// yaw (Q and E)
-		if(keypressed(0x51))
+		if(keypressed(0x41))//0x51 pour Q donc 0x41 pour A
 			theta_d(2) -= this->yaw_pwm;
 		else if(keypressed(0x45))
 			theta_d(2) += this->yaw_pwm;
+
+		/*sf::Joystick::Identification id = sf::Joystick::getIdentification(0);
+		sf::Joystick::update();
+		if (sf::Joystick::getAxisPosition(0, sf::Joystick::U) > 0.1)//0.0015259
+		{
+			theta_d(0) += this->roll_pwm;
+		}
+		else if (sf::Joystick::getAxisPosition(0, sf::Joystick::U) < -0.1)//0.0015259
+		{
+			theta_d(0) -= this->roll_pwm;
+		}
+
+		if (sf::Joystick::getAxisPosition(0, sf::Joystick::Y) > 0.1)//0.0015259
+		{
+			theta_d(1) += this->pitch_pwm;
+		}
+		else if (sf::Joystick::getAxisPosition(0, sf::Joystick::Y) < -0.1)//0.0015259
+		{
+			theta_d(1) -= this->pitch_pwm;
+		}
+
+		if (sf::Joystick::getAxisPosition(0, sf::Joystick::X) > 0.1)//0.0015259
+		{
+			theta_d(2) += this->yaw_pwm;
+		}
+		else if (sf::Joystick::getAxisPosition(0, sf::Joystick::X) < -0.1)//0.0015259
+		{
+			theta_d(2) -= this->yaw_pwm;
+		}
+		*/
 	}
 
 	theta_d(0) = constrainn<double>(theta_d(0), RECEIVER_PWM_MIN, RECEIVER_PWM_MAX);
@@ -77,11 +115,21 @@ void receiver::get_desired_throttle(double &throttle)
 	if(this->output_blocked == false)
 	{
 		// climb (+)
-		if(keypressed(VK_OEM_PLUS))
+		if(keypressed(0x57))//VK_OEM_PLUS pour la touche "+" mais changé pour W : 0x57
 			throttle += this->throttle_pwm;
 		// sink (-)
-		else if(keypressed(VK_OEM_MINUS))
+		else if(keypressed(0x58))//VK_OEM_MINUS pour la touche "-" mais changé pour X : 0x58
 			throttle -= this->throttle_pwm;
+
+		sf::Joystick::update();
+		if (sf::Joystick::getAxisPosition(0, sf::Joystick::Z) > 0.1)//0.0015259
+		{
+			throttle += this->throttle_pwm;
+		}
+		else if (sf::Joystick::getAxisPosition(0, sf::Joystick::Z) < -0.1)//0.0015259
+		{
+			throttle -= this->throttle_pwm;
+		}
 	}
 
 	throttle = constrainn<double>(throttle, RECEIVER_PWM_MIN, RECEIVER_PWM_MAX);
