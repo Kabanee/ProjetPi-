@@ -40,8 +40,8 @@ receiver::~receiver()
 
 void receiver::get_desired_theta(Vector3d &theta_d)
 {
-	std::thread t1(keypressed, NULL);
-	t1.join();
+	/*std::thread t1(keypressed);
+	t1.join();*/
 	// zero signals in case no input or blocked
 	theta_d(0) = RECEIVER_PWM_ZERO_SIGNAL;
 	theta_d(1) = RECEIVER_PWM_ZERO_SIGNAL;
@@ -51,21 +51,21 @@ void receiver::get_desired_theta(Vector3d &theta_d)
 	if(this->output_blocked == false)
 	{
 		// roll (A and D)
-		if(keypressed() == 'q')
+		if(keypressed('q'))
 			theta_d(0) -= this->roll_pwm;
-		else if(keypressed() == 'd')
+		else if(keypressed('d'))
 			theta_d(0) += this->roll_pwm;
 
 		// pitch (W and S)
-		if(keypressed() == 'z')
+		if(keypressed('z'))
 			theta_d(1) += this->pitch_pwm;
-		else if(keypressed() == 's')
+		else if(keypressed('s'))
 			theta_d(1) -= this->pitch_pwm;
 
 		// yaw (Q and E)
-		if(keypressed() == 'a')
+		if(keypressed('a'))
 			theta_d(2) -= this->yaw_pwm;
-		else if(keypressed() == 'e')
+		else if(keypressed('e'))
 			theta_d(2) += this->yaw_pwm;
 	}
 
@@ -75,7 +75,7 @@ void receiver::get_desired_theta(Vector3d &theta_d)
 }
 
 void receiver::get_desired_throttle(double &throttle)
-{	
+{
 	// user has to put stick in hover position if he does not want to climb/sink
 	throttle = getPWMinPointOfEquilibirum();
 
@@ -83,10 +83,10 @@ void receiver::get_desired_throttle(double &throttle)
 	if(this->output_blocked == false)
 	{
 		// climb (+)
-		if(keypressed() == 'f')
+		if(keypressed('f'))
 			throttle += this->throttle_pwm;
 		// sink (-)
-		else if(keypressed() == 'c')
+		else if(keypressed('c'))
 			throttle -= this->throttle_pwm;
 	}
 
@@ -98,19 +98,19 @@ void receiver::block_receiver(bool blocked)
 	this->output_blocked = blocked;
 }
 
-/*bool receiver::keypressed(int keyvalue)
+bool receiver::keypressed(char keyvalue)
 {
-	int16_t tabKeyState = getch();
+	char tabKey = getch();
 
 	// test high bit - if set, key was down when GetAsyncKeyState was called
-	if(( 1 << 16 ) & tabKeyState)
+	if(keyvalue == tabKey)
 		return true;
 
 	return false;
-}*/
-
+}
+/*
 char receiver::keypressed()
 {
 	char tabKey = getch();
 	return tabKey;
-}
+}*/
