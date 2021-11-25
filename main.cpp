@@ -1,24 +1,6 @@
-/*
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-*/
-#include <linux_dependencies.h>
 #include <thread>
 #include <time.h>
 #include <sys/time.h>
-
 #include "main_config.h"
 #include "quadcopter.h"
 
@@ -33,7 +15,7 @@ int main(int argc, char *argv[])
 	// create simulation in second thread
 	quadcopter Quadcopter_sim;
 	Quadcopter_sim.startSimulation();
-	
+
 	// create the renderer
 #ifdef MAIN_RENDER_TYPE_IRRLICHT
 	irr_renderer IRR_Renderer(Quadcopter_sim.get_frame_mode(), MAIN_RENDERER_WINDOWS_X_SIZE, MAIN_RENDERER_WINDOWS_Y_SIZE, MAIN_RENDERER_FRAMES_SEC);
@@ -43,7 +25,7 @@ int main(int argc, char *argv[])
 
 	// infinite execution loop
 	while(1)
-	{												
+	{
 		// check if both simulation and renderer are still running
 #ifdef MAIN_RENDER_TYPE_IRRLICHT
 		if(Quadcopter_sim.simulationRunning() && IRR_Renderer.get_rendererRunning())
@@ -57,7 +39,6 @@ int main(int argc, char *argv[])
 #endif
 			// frame rate limiter start
 			timeval start, finish;
-			LARGE_INTEGER start, finish;
 			gettimeofday(&start, NULL);
 
 			// render the scene
@@ -67,7 +48,7 @@ int main(int argc, char *argv[])
 			IRR_Renderer.Quadcopter_3D->set_attitude(Quadcopter_sim.get_attitude(0), Quadcopter_sim.get_attitude(1), Quadcopter_sim.get_attitude(2));
 			IRR_Renderer.Quadcopter_3D->set_speed(Quadcopter_sim.get_speed(0), Quadcopter_sim.get_speed(1), Quadcopter_sim.get_speed(2));
 			IRR_Renderer.Quadcopter_3D->set_motorspeed(	Quadcopter_sim.get_motor_rpm(0), Quadcopter_sim.get_motor_rpm(1), Quadcopter_sim.get_motor_rpm(2), Quadcopter_sim.get_motor_rpm(3));
-			IRR_Renderer.Quadcopter_3D->set_direction_vector(Quadcopter_sim.get_direction_vector(0), Quadcopter_sim.get_direction_vector(1), Quadcopter_sim.get_direction_vector(2));					
+			IRR_Renderer.Quadcopter_3D->set_direction_vector(Quadcopter_sim.get_direction_vector(0), Quadcopter_sim.get_direction_vector(1), Quadcopter_sim.get_direction_vector(2));
 			IRR_Renderer.Quadcopter_3D->set_up_vector(Quadcopter_sim.get_up_vector(0), Quadcopter_sim.get_up_vector(1), Quadcopter_sim.get_up_vector(2));
 			IRR_Renderer.render();
 #elif SECOND_RENDERER
@@ -101,6 +82,6 @@ int main(int argc, char *argv[])
 			break;
 		}
 	}
-	
+
 	return 0;
 }
