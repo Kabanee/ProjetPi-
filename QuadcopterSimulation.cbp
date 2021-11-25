@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="QuadcopterSimulation" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/QuadcopterSimulation" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="irrlicht-1.8.5" />
+					<Add directory="eigen-3.4.0" />
+				</Compiler>
+				<Linker>
+					<Add library="irrlicht" />
+					<Add library="eigen" />
+					<Add directory="irrlicht-1.8.5" />
+					<Add directory="eigen-3.4.0" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/QuadcopterSimulation" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add directory="irrlicht-1.8.5" />
+			<Add directory="eigen-3.4.0" />
+		</Linker>
+		<Unit filename="PID.cpp" />
+		<Unit filename="PID.h" />
+		<Unit filename="accelerometer.cpp" />
+		<Unit filename="accelerometer.h" />
+		<Unit filename="barometer.cpp" />
+		<Unit filename="barometer.h" />
+		<Unit filename="complementaryFilter.cpp" />
+		<Unit filename="complementaryFilter.h" />
+		<Unit filename="config.h" />
+		<Unit filename="esc_motor.cpp" />
+		<Unit filename="esc_motor.h" />
+		<Unit filename="gyroscope.cpp" />
+		<Unit filename="gyroscope.h" />
+		<Unit filename="irr_coordinate_axes.h" />
+		<Unit filename="irr_event_receiver.h" />
+		<Unit filename="irr_keytimer.h" />
+		<Unit filename="irr_quadcopter_3D.cpp" />
+		<Unit filename="irr_quadcopter_3D.h" />
+		<Unit filename="irr_renderer.cpp" />
+		<Unit filename="irr_renderer.h" />
+		<Unit filename="magnetometer.cpp" />
+		<Unit filename="magnetometer.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main_config.h" />
+		<Unit filename="mathHelp.h" />
+		<Unit filename="quadcopter.cpp" />
+		<Unit filename="quadcopter.h" />
+		<Unit filename="receiver.cpp" />
+		<Unit filename="receiver.h" />
+		<Unit filename="sensorFusion.cpp" />
+		<Unit filename="sensorFusion.h" />
+		<Unit filename="stabilizer.cpp" />
+		<Unit filename="stabilizer.h" />
+		<Unit filename="timer.cpp" />
+		<Unit filename="timer.h" />
+		<Unit filename="utils_diffequation.cpp" />
+		<Unit filename="utils_diffequation.h" />
+		<Unit filename="vectorTypes.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

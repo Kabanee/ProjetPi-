@@ -1,0 +1,2041 @@
+# depslib dependency file v1.0
+1636997623 source:/home/kali/Documents/QuadcopterSimulation/accelerometer.cpp
+	"config.h"
+	"mathHelp.h"
+	"accelerometer.h"
+	"utils_diffequation.h"
+
+1636997623 /home/kali/Documents/QuadcopterSimulation/config.h
+	<math.h>
+
+1636997623 /home/kali/Documents/QuadcopterSimulation/mathHelp.h
+
+1637761603 /home/kali/Documents/QuadcopterSimulation/accelerometer.h
+	<random>
+	</home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Dense>
+
+1637761603 /home/kali/Documents/QuadcopterSimulation/utils_diffequation.h
+	</home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Dense>
+
+1636997623 source:/home/kali/Documents/QuadcopterSimulation/barometer.cpp
+	"config.h"
+	"mathHelp.h"
+	"barometer.h"
+
+1637761603 /home/kali/Documents/QuadcopterSimulation/barometer.h
+	<random>
+	</home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Dense>
+
+1636997623 source:/home/kali/Documents/QuadcopterSimulation/complementaryFilter.cpp
+	"config.h"
+	"complementaryFilter.h"
+
+1636997623 /home/kali/Documents/QuadcopterSimulation/complementaryFilter.h
+
+1636997623 source:/home/kali/Documents/QuadcopterSimulation/esc_motor.cpp
+	<stdio.h>
+	<math.h>
+	"config.h"
+	"mathHelp.h"
+	"esc_motor.h"
+
+1636997623 /home/kali/Documents/QuadcopterSimulation/esc_motor.h
+
+1636997623 source:/home/kali/Documents/QuadcopterSimulation/gyroscope.cpp
+	"config.h"
+	"mathHelp.h"
+	"utils_diffequation.h"
+	"gyroscope.h"
+
+1637761603 /home/kali/Documents/QuadcopterSimulation/gyroscope.h
+	<random>
+	</home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Dense>
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Dense
+	"Core"
+	"LU"
+	"Cholesky"
+	"QR"
+	"SVD"
+	"Geometry"
+	"Eigenvalues"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Core
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Core/util/Macros.h"
+	"src/Core/util/ConfigureVectorization.h"
+	<cuda_runtime.h>
+	<hip/hip_runtime.h>
+	<new>
+	<complex>
+	"src/Core/util/MKL_support.h"
+	<omp.h>
+	<cerrno>
+	<cstddef>
+	<cstdlib>
+	<cmath>
+	<cassert>
+	<functional>
+	<sstream>
+	<iosfwd>
+	<cstring>
+	<string>
+	<limits>
+	<climits>
+	<algorithm>
+	<array>
+	<type_traits>
+	<iostream>
+	<intrin.h>
+	<CL/sycl.hpp>
+	<map>
+	<memory>
+	<utility>
+	<thread>
+	"src/Core/util/Constants.h"
+	"src/Core/util/Meta.h"
+	"src/Core/util/ForwardDeclarations.h"
+	"src/Core/util/StaticAssert.h"
+	"src/Core/util/XprHelper.h"
+	"src/Core/util/Memory.h"
+	"src/Core/util/IntegralConstant.h"
+	"src/Core/util/SymbolicIndex.h"
+	"src/Core/NumTraits.h"
+	"src/Core/MathFunctions.h"
+	"src/Core/GenericPacketMath.h"
+	"src/Core/MathFunctionsImpl.h"
+	"src/Core/arch/Default/ConjHelper.h"
+	"src/Core/arch/Default/Half.h"
+	"src/Core/arch/Default/BFloat16.h"
+	"src/Core/arch/Default/TypeCasting.h"
+	"src/Core/arch/Default/GenericPacketMathFunctionsFwd.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/TypeCasting.h"
+	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/AVX/PacketMath.h"
+	"src/Core/arch/AVX/TypeCasting.h"
+	"src/Core/arch/AVX/Complex.h"
+	"src/Core/arch/AVX512/PacketMath.h"
+	"src/Core/arch/AVX512/TypeCasting.h"
+	"src/Core/arch/AVX512/Complex.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/AVX/MathFunctions.h"
+	"src/Core/arch/AVX512/MathFunctions.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/TypeCasting.h"
+	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/AVX/PacketMath.h"
+	"src/Core/arch/AVX/TypeCasting.h"
+	"src/Core/arch/AVX/Complex.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/AVX/MathFunctions.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/TypeCasting.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/AltiVec/PacketMath.h"
+	"src/Core/arch/AltiVec/MathFunctions.h"
+	"src/Core/arch/AltiVec/Complex.h"
+	"src/Core/arch/NEON/PacketMath.h"
+	"src/Core/arch/NEON/TypeCasting.h"
+	"src/Core/arch/NEON/MathFunctions.h"
+	"src/Core/arch/NEON/Complex.h"
+	"src/Core/arch/SVE/PacketMath.h"
+	"src/Core/arch/SVE/TypeCasting.h"
+	"src/Core/arch/SVE/MathFunctions.h"
+	"src/Core/arch/ZVector/PacketMath.h"
+	"src/Core/arch/ZVector/MathFunctions.h"
+	"src/Core/arch/ZVector/Complex.h"
+	"src/Core/arch/MSA/PacketMath.h"
+	"src/Core/arch/MSA/MathFunctions.h"
+	"src/Core/arch/MSA/Complex.h"
+	"src/Core/arch/GPU/PacketMath.h"
+	"src/Core/arch/GPU/MathFunctions.h"
+	"src/Core/arch/GPU/TypeCasting.h"
+	"src/Core/arch/SYCL/SyclMemoryModel.h"
+	"src/Core/arch/SYCL/InteropHeaders.h"
+	"src/Core/arch/SYCL/PacketMath.h"
+	"src/Core/arch/SYCL/MathFunctions.h"
+	"src/Core/arch/SYCL/TypeCasting.h"
+	"src/Core/arch/Default/Settings.h"
+	"src/Core/arch/Default/GenericPacketMathFunctions.h"
+	"src/Core/functors/TernaryFunctors.h"
+	"src/Core/functors/BinaryFunctors.h"
+	"src/Core/functors/UnaryFunctors.h"
+	"src/Core/functors/NullaryFunctors.h"
+	"src/Core/functors/StlFunctors.h"
+	"src/Core/functors/AssignmentFunctors.h"
+	"src/Core/arch/CUDA/Complex.h"
+	"src/Core/util/IndexedViewHelper.h"
+	"src/Core/util/ReshapedHelper.h"
+	"src/Core/ArithmeticSequence.h"
+	"src/Core/IO.h"
+	"src/Core/DenseCoeffsBase.h"
+	"src/Core/DenseBase.h"
+	"src/Core/MatrixBase.h"
+	"src/Core/EigenBase.h"
+	"src/Core/Product.h"
+	"src/Core/CoreEvaluators.h"
+	"src/Core/AssignEvaluator.h"
+	"src/Core/Assign.h"
+	"src/Core/ArrayBase.h"
+	"src/Core/util/BlasUtil.h"
+	"src/Core/DenseStorage.h"
+	"src/Core/NestByValue.h"
+	"src/Core/ReturnByValue.h"
+	"src/Core/NoAlias.h"
+	"src/Core/PlainObjectBase.h"
+	"src/Core/Matrix.h"
+	"src/Core/Array.h"
+	"src/Core/CwiseTernaryOp.h"
+	"src/Core/CwiseBinaryOp.h"
+	"src/Core/CwiseUnaryOp.h"
+	"src/Core/CwiseNullaryOp.h"
+	"src/Core/CwiseUnaryView.h"
+	"src/Core/SelfCwiseBinaryOp.h"
+	"src/Core/Dot.h"
+	"src/Core/StableNorm.h"
+	"src/Core/Stride.h"
+	"src/Core/MapBase.h"
+	"src/Core/Map.h"
+	"src/Core/Ref.h"
+	"src/Core/Block.h"
+	"src/Core/VectorBlock.h"
+	"src/Core/IndexedView.h"
+	"src/Core/Reshaped.h"
+	"src/Core/Transpose.h"
+	"src/Core/DiagonalMatrix.h"
+	"src/Core/Diagonal.h"
+	"src/Core/DiagonalProduct.h"
+	"src/Core/Redux.h"
+	"src/Core/Visitor.h"
+	"src/Core/Fuzzy.h"
+	"src/Core/Swap.h"
+	"src/Core/CommaInitializer.h"
+	"src/Core/GeneralProduct.h"
+	"src/Core/Solve.h"
+	"src/Core/Inverse.h"
+	"src/Core/SolverBase.h"
+	"src/Core/PermutationMatrix.h"
+	"src/Core/Transpositions.h"
+	"src/Core/TriangularMatrix.h"
+	"src/Core/SelfAdjointView.h"
+	"src/Core/products/GeneralBlockPanelKernel.h"
+	"src/Core/products/Parallelizer.h"
+	"src/Core/ProductEvaluators.h"
+	"src/Core/products/GeneralMatrixVector.h"
+	"src/Core/products/GeneralMatrixMatrix.h"
+	"src/Core/SolveTriangular.h"
+	"src/Core/products/GeneralMatrixMatrixTriangular.h"
+	"src/Core/products/SelfadjointMatrixVector.h"
+	"src/Core/products/SelfadjointMatrixMatrix.h"
+	"src/Core/products/SelfadjointProduct.h"
+	"src/Core/products/SelfadjointRank2Update.h"
+	"src/Core/products/TriangularMatrixVector.h"
+	"src/Core/products/TriangularMatrixMatrix.h"
+	"src/Core/products/TriangularSolverMatrix.h"
+	"src/Core/products/TriangularSolverVector.h"
+	"src/Core/BandMatrix.h"
+	"src/Core/CoreIterators.h"
+	"src/Core/ConditionEstimator.h"
+	"src/Core/arch/AltiVec/MatrixProduct.h"
+	"src/Core/arch/NEON/GeneralBlockPanelKernel.h"
+	"src/Core/BooleanRedux.h"
+	"src/Core/Select.h"
+	"src/Core/VectorwiseOp.h"
+	"src/Core/PartialReduxEvaluator.h"
+	"src/Core/Random.h"
+	"src/Core/Replicate.h"
+	"src/Core/Reverse.h"
+	"src/Core/ArrayWrapper.h"
+	"src/Core/StlIterators.h"
+	"src/Core/products/GeneralMatrixMatrix_BLAS.h"
+	"src/Core/products/GeneralMatrixVector_BLAS.h"
+	"src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h"
+	"src/Core/products/SelfadjointMatrixMatrix_BLAS.h"
+	"src/Core/products/SelfadjointMatrixVector_BLAS.h"
+	"src/Core/products/TriangularMatrixMatrix_BLAS.h"
+	"src/Core/products/TriangularMatrixVector_BLAS.h"
+	"src/Core/products/TriangularSolverMatrix_BLAS.h"
+	"src/Core/Assign_MKL.h"
+	"src/Core/GlobalFunctions.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/util/DisableStupidWarnings.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/util/Macros.h
+	<cuda.h>
+	<hip/hip_runtime.h>
+	<cmath>
+	<cstdlib>
+	<iostream>
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/util/ConfigureVectorization.h
+	<malloc.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<emmintrin.h>
+	<xmmintrin.h>
+	<pmmintrin.h>
+	<tmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+	<immintrin.h>
+	<altivec.h>
+	<altivec.h>
+	<arm_neon.h>
+	<arm_sve.h>
+	<vecintrin.h>
+	<msa.h>
+	<arm_fp16.h>
+	<immintrin.h>
+	<vector_types.h>
+	<cuda_runtime_api.h>
+	<cuda_fp16.h>
+	<hip/hip_vector_types.h>
+	<hip/hip_fp16.h>
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/util/MKL_support.h
+	<mkl.h>
+	"../../misc/blas.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/misc/blas.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/util/Constants.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/util/Meta.h
+	<cfloat>
+	<math_constants.h>
+	"Eigen/src/Core/arch/HIP/hcc/math_constants.h"
+	<cstdint>
+	<stdint.h>
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/util/ForwardDeclarations.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/util/StaticAssert.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/util/XprHelper.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/util/Memory.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/util/IntegralConstant.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/util/SymbolicIndex.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/NumTraits.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/MathFunctions.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/GenericPacketMath.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/MathFunctionsImpl.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/Default/ConjHelper.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/Default/Half.h
+	<sstream>
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/Default/BFloat16.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/Default/TypeCasting.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/SSE/PacketMath.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/SSE/TypeCasting.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/SSE/Complex.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/AVX/PacketMath.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/AVX/TypeCasting.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/AVX/Complex.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/AVX512/PacketMath.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/AVX512/TypeCasting.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/AVX512/Complex.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/SSE/MathFunctions.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/AVX/MathFunctions.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/AVX512/MathFunctions.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/AltiVec/PacketMath.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/AltiVec/Complex.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/NEON/PacketMath.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/NEON/TypeCasting.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/NEON/MathFunctions.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/NEON/Complex.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/SVE/PacketMath.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/SVE/TypeCasting.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/SVE/MathFunctions.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/ZVector/PacketMath.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/ZVector/MathFunctions.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/ZVector/Complex.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/MSA/PacketMath.h
+	<iostream>
+	<string>
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/MSA/MathFunctions.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/MSA/Complex.h
+	<iostream>
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/GPU/PacketMath.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/GPU/MathFunctions.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/GPU/TypeCasting.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/SYCL/SyclMemoryModel.h
+	<CL/sycl.hpp>
+	<stdexcept>
+	<cstddef>
+	<queue>
+	<set>
+	<unordered_map>
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/SYCL/InteropHeaders.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/SYCL/PacketMath.h
+	<type_traits>
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/SYCL/MathFunctions.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/SYCL/TypeCasting.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/Default/Settings.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/functors/TernaryFunctors.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/functors/BinaryFunctors.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/functors/UnaryFunctors.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/functors/NullaryFunctors.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/functors/StlFunctors.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/functors/AssignmentFunctors.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/CUDA/Complex.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/util/IndexedViewHelper.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/util/ReshapedHelper.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/ArithmeticSequence.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/IO.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/DenseCoeffsBase.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/DenseBase.h
+	"../plugins/CommonCwiseUnaryOps.h"
+	"../plugins/BlockMethods.h"
+	"../plugins/IndexedViewMethods.h"
+	"../plugins/ReshapedMethods.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/plugins/CommonCwiseUnaryOps.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/plugins/BlockMethods.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/plugins/IndexedViewMethods.h
+	"IndexedViewMethods.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/plugins/ReshapedMethods.h
+	"ReshapedMethods.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/MatrixBase.h
+	"../plugins/CommonCwiseBinaryOps.h"
+	"../plugins/MatrixCwiseUnaryOps.h"
+	"../plugins/MatrixCwiseBinaryOps.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/plugins/CommonCwiseBinaryOps.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/EigenBase.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Product.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/CoreEvaluators.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/AssignEvaluator.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Assign.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/ArrayBase.h
+	"../plugins/MatrixCwiseUnaryOps.h"
+	"../plugins/ArrayCwiseUnaryOps.h"
+	"../plugins/CommonCwiseBinaryOps.h"
+	"../plugins/MatrixCwiseBinaryOps.h"
+	"../plugins/ArrayCwiseBinaryOps.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/util/BlasUtil.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/DenseStorage.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/NestByValue.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/ReturnByValue.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/NoAlias.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/PlainObjectBase.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Matrix.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Array.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/CwiseTernaryOp.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/CwiseBinaryOp.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/CwiseUnaryOp.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/CwiseNullaryOp.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/CwiseUnaryView.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/SelfCwiseBinaryOp.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Dot.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/StableNorm.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Stride.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/MapBase.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Map.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Ref.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Block.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/VectorBlock.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/IndexedView.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Reshaped.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Transpose.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/DiagonalMatrix.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Diagonal.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/DiagonalProduct.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Redux.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Visitor.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Fuzzy.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Swap.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/CommaInitializer.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/GeneralProduct.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Solve.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Inverse.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/SolverBase.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/PermutationMatrix.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Transpositions.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/TriangularMatrix.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/SelfAdjointView.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/Parallelizer.h
+	<atomic>
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/ProductEvaluators.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/GeneralMatrixVector.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/GeneralMatrixMatrix.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/SolveTriangular.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/SelfadjointMatrixVector.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/SelfadjointProduct.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/SelfadjointRank2Update.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/TriangularMatrixVector.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/TriangularMatrixMatrix.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/TriangularSolverMatrix.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/TriangularSolverVector.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/BandMatrix.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/CoreIterators.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/ConditionEstimator.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/AltiVec/MatrixProduct.h
+	"MatrixProductCommon.h"
+	"MatrixProductMMA.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/AltiVec/MatrixProductCommon.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/AltiVec/MatrixProductMMA.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/BooleanRedux.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Select.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/VectorwiseOp.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/PartialReduxEvaluator.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Random.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Replicate.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Reverse.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/ArrayWrapper.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/StlIterators.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/Assign_MKL.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/GlobalFunctions.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Core/util/ReenableStupidWarnings.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/LU
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/misc/Kernel.h"
+	"src/misc/Image.h"
+	"src/LU/FullPivLU.h"
+	"src/LU/PartialPivLU.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/LU/PartialPivLU_LAPACKE.h"
+	"src/LU/Determinant.h"
+	"src/LU/InverseImpl.h"
+	"src/LU/arch/InverseSize4.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/misc/Kernel.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/misc/Image.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/LU/FullPivLU.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/LU/PartialPivLU.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/misc/lapacke.h
+	"lapacke_config.h"
+	<stdlib.h>
+	<complex.h>
+	<complex.h>
+	"lapacke_mangling.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/misc/lapacke_mangling.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/LU/PartialPivLU_LAPACKE.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/LU/Determinant.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/LU/InverseImpl.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/LU/arch/InverseSize4.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Cholesky
+	"Core"
+	"Jacobi"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Cholesky/LLT.h"
+	"src/Cholesky/LDLT.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/Cholesky/LLT_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Jacobi
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Jacobi/Jacobi.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Jacobi/Jacobi.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Cholesky/LLT.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Cholesky/LDLT.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Cholesky/LLT_LAPACKE.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/QR
+	"Core"
+	"Cholesky"
+	"Jacobi"
+	"Householder"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/QR/HouseholderQR.h"
+	"src/QR/FullPivHouseholderQR.h"
+	"src/QR/ColPivHouseholderQR.h"
+	"src/QR/CompleteOrthogonalDecomposition.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/QR/HouseholderQR_LAPACKE.h"
+	"src/QR/ColPivHouseholderQR_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Householder
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Householder/Householder.h"
+	"src/Householder/HouseholderSequence.h"
+	"src/Householder/BlockHouseholder.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Householder/Householder.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Householder/HouseholderSequence.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Householder/BlockHouseholder.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/QR/HouseholderQR.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/QR/FullPivHouseholderQR.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/QR/ColPivHouseholderQR.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/QR/HouseholderQR_LAPACKE.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/SVD
+	"QR"
+	"Householder"
+	"Jacobi"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/misc/RealSvd2x2.h"
+	"src/SVD/UpperBidiagonalization.h"
+	"src/SVD/SVDBase.h"
+	"src/SVD/JacobiSVD.h"
+	"src/SVD/BDCSVD.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/SVD/JacobiSVD_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/misc/RealSvd2x2.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/SVD/UpperBidiagonalization.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/SVD/SVDBase.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/SVD/JacobiSVD.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/SVD/BDCSVD.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/SVD/JacobiSVD_LAPACKE.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Geometry
+	"Core"
+	"SVD"
+	"LU"
+	<limits>
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Geometry/OrthoMethods.h"
+	"src/Geometry/EulerAngles.h"
+	"src/Geometry/Homogeneous.h"
+	"src/Geometry/RotationBase.h"
+	"src/Geometry/Rotation2D.h"
+	"src/Geometry/Quaternion.h"
+	"src/Geometry/AngleAxis.h"
+	"src/Geometry/Transform.h"
+	"src/Geometry/Translation.h"
+	"src/Geometry/Scaling.h"
+	"src/Geometry/Hyperplane.h"
+	"src/Geometry/ParametrizedLine.h"
+	"src/Geometry/AlignedBox.h"
+	"src/Geometry/Umeyama.h"
+	"src/Geometry/arch/Geometry_SIMD.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Geometry/OrthoMethods.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Geometry/EulerAngles.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Geometry/Homogeneous.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Geometry/RotationBase.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Geometry/Rotation2D.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Geometry/Quaternion.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Geometry/AngleAxis.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Geometry/Transform.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Geometry/Translation.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Geometry/Scaling.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Geometry/Hyperplane.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Geometry/ParametrizedLine.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Geometry/AlignedBox.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Geometry/Umeyama.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Geometry/arch/Geometry_SIMD.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Eigenvalues
+	"Core"
+	"Cholesky"
+	"Jacobi"
+	"Householder"
+	"LU"
+	"Geometry"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/misc/RealSvd2x2.h"
+	"src/Eigenvalues/Tridiagonalization.h"
+	"src/Eigenvalues/RealSchur.h"
+	"src/Eigenvalues/EigenSolver.h"
+	"src/Eigenvalues/SelfAdjointEigenSolver.h"
+	"src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h"
+	"src/Eigenvalues/HessenbergDecomposition.h"
+	"src/Eigenvalues/ComplexSchur.h"
+	"src/Eigenvalues/ComplexEigenSolver.h"
+	"src/Eigenvalues/RealQZ.h"
+	"src/Eigenvalues/GeneralizedEigenSolver.h"
+	"src/Eigenvalues/MatrixBaseEigenvalues.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/Eigenvalues/RealSchur_LAPACKE.h"
+	"src/Eigenvalues/ComplexSchur_LAPACKE.h"
+	"src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Eigenvalues/Tridiagonalization.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Eigenvalues/RealSchur.h
+	"./HessenbergDecomposition.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Eigenvalues/EigenSolver.h
+	"./RealSchur.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+	"./Tridiagonalization.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+	"./Tridiagonalization.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Eigenvalues/ComplexSchur.h
+	"./HessenbergDecomposition.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+	"./ComplexSchur.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Eigenvalues/RealQZ.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+	"./RealQZ.h"
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h
+
+1629319318 /home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
+
+1636997623 source:/home/kali/Documents/QuadcopterSimulation/magnetometer.cpp
+	"config.h"
+	"mathHelp.h"
+	"utils_diffequation.h"
+	"magnetometer.h"
+
+1637761603 /home/kali/Documents/QuadcopterSimulation/magnetometer.h
+	<random>
+	</home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Dense>
+
+1636997623 source:/home/kali/Documents/QuadcopterSimulation/irr_quadcopter_3D.cpp
+	<math.h>
+	"irr_quadcopter_3D.h"
+
+1636997623 /home/kali/Documents/QuadcopterSimulation/irr_quadcopter_3D.h
+	<irrlicht.h>
+	"irr_event_receiver.h"
+
+1352146452 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/irrlicht.h
+	"IrrCompileConfig.h"
+	"aabbox3d.h"
+	"CDynamicMeshBuffer.h"
+	"CIndexBuffer.h"
+	"CMeshBuffer.h"
+	"coreutil.h"
+	"CVertexBuffer.h"
+	"dimension2d.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"EDriverFeatures.h"
+	"EDriverTypes.h"
+	"EGUIAlignment.h"
+	"EGUIElementTypes.h"
+	"EHardwareBufferFlags.h"
+	"EMaterialFlags.h"
+	"EMaterialTypes.h"
+	"EMeshWriterEnums.h"
+	"EMessageBoxFlags.h"
+	"ESceneNodeAnimatorTypes.h"
+	"ESceneNodeTypes.h"
+	"ETerrainElements.h"
+	"fast_atof.h"
+	"heapsort.h"
+	"IAnimatedMesh.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+	"IAnimatedMeshSceneNode.h"
+	"IAttributeExchangingObject.h"
+	"IAttributes.h"
+	"IBillboardSceneNode.h"
+	"IBillboardTextSceneNode.h"
+	"IBoneSceneNode.h"
+	"ICameraSceneNode.h"
+	"ICursorControl.h"
+	"IDummyTransformationSceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"IEventReceiver.h"
+	"IFileList.h"
+	"IFileSystem.h"
+	"IGeometryCreator.h"
+	"IGPUProgrammingServices.h"
+	"IGUIButton.h"
+	"IGUICheckBox.h"
+	"IGUIColorSelectDialog.h"
+	"IGUIComboBox.h"
+	"IGUIContextMenu.h"
+	"IGUIEditBox.h"
+	"IGUIElement.h"
+	"IGUIElementFactory.h"
+	"IGUIEnvironment.h"
+	"IGUIFileOpenDialog.h"
+	"IGUIFont.h"
+	"IGUIFontBitmap.h"
+	"IGUIImage.h"
+	"IGUIInOutFader.h"
+	"IGUIListBox.h"
+	"IGUIMeshViewer.h"
+	"IGUIScrollBar.h"
+	"IGUISkin.h"
+	"IGUISpinBox.h"
+	"IGUISpriteBank.h"
+	"IGUIStaticText.h"
+	"IGUITabControl.h"
+	"IGUITable.h"
+	"IGUIToolbar.h"
+	"IGUIWindow.h"
+	"IGUITreeView.h"
+	"IImage.h"
+	"IImageLoader.h"
+	"IImageWriter.h"
+	"IIndexBuffer.h"
+	"ILightSceneNode.h"
+	"ILogger.h"
+	"IMaterialRenderer.h"
+	"IMaterialRendererServices.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"IMeshCache.h"
+	"IMeshLoader.h"
+	"IMeshManipulator.h"
+	"IMeshSceneNode.h"
+	"IMeshWriter.h"
+	"IColladaMeshWriter.h"
+	"IMetaTriangleSelector.h"
+	"IOSOperator.h"
+	"IParticleSystemSceneNode.h"
+	"IQ3LevelMesh.h"
+	"IQ3Shader.h"
+	"IReadFile.h"
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"IRandomizer.h"
+	"IrrlichtDevice.h"
+	"irrList.h"
+	"irrMap.h"
+	"irrMath.h"
+	"irrString.h"
+	"irrTypes.h"
+	"path.h"
+	"irrXML.h"
+	"ISceneCollisionManager.h"
+	"ISceneLoader.h"
+	"ISceneManager.h"
+	"ISceneNode.h"
+	"ISceneNodeAnimator.h"
+	"ISceneNodeAnimatorCameraFPS.h"
+	"ISceneNodeAnimatorCameraMaya.h"
+	"ISceneNodeAnimatorCollisionResponse.h"
+	"ISceneNodeAnimatorFactory.h"
+	"ISceneNodeFactory.h"
+	"ISceneUserDataSerializer.h"
+	"IShaderConstantSetCallBack.h"
+	"IShadowVolumeSceneNode.h"
+	"ISkinnedMesh.h"
+	"ITerrainSceneNode.h"
+	"ITextSceneNode.h"
+	"ITexture.h"
+	"ITimer.h"
+	"ITriangleSelector.h"
+	"IVertexBuffer.h"
+	"IVideoDriver.h"
+	"IVideoModeList.h"
+	"IVolumeLightSceneNode.h"
+	"IWriteFile.h"
+	"IXMLReader.h"
+	"IXMLWriter.h"
+	"ILightManager.h"
+	"Keycodes.h"
+	"line2d.h"
+	"line3d.h"
+	"matrix4.h"
+	"plane3d.h"
+	"position2d.h"
+	"quaternion.h"
+	"rect.h"
+	"S3DVertex.h"
+	"SAnimatedMesh.h"
+	"SceneParameters.h"
+	"SColor.h"
+	"SExposedVideoData.h"
+	"SIrrCreationParameters.h"
+	"SKeyMap.h"
+	"SLight.h"
+	"SMaterial.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"SMeshBufferLightMap.h"
+	"SMeshBufferTangents.h"
+	"SParticle.h"
+	"SSharedMeshBuffer.h"
+	"SSkinMeshBuffer.h"
+	"SVertexIndex.h"
+	"SViewFrustum.h"
+	"triangle3d.h"
+	"vector2d.h"
+	"vector3d.h"
+	"SIrrCreationParameters.h"
+
+1635783552 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IrrCompileConfig.h
+	<stdio.h>
+	<xtl.h>
+	<tchar.h>
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/aabbox3d.h
+	"irrMath.h"
+	"plane3d.h"
+	"line3d.h"
+
+1377733330 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/irrMath.h
+	"IrrCompileConfig.h"
+	"irrTypes.h"
+	<math.h>
+	<float.h>
+	<stdlib.h>
+	<limits.h>
+
+1353363638 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/irrTypes.h
+	"IrrCompileConfig.h"
+	<wchar.h>
+	<crtdbg.h>
+	"assert.h"
+	<stdlib.h>
+	<crtdbg.h>
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/plane3d.h
+	"irrMath.h"
+	"vector3d.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/vector3d.h
+	"irrMath.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/line3d.h
+	"irrTypes.h"
+	"vector3d.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/CDynamicMeshBuffer.h
+	"IDynamicMeshBuffer.h"
+	"CVertexBuffer.h"
+	"CIndexBuffer.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IDynamicMeshBuffer.h
+	"IMeshBuffer.h"
+	"IVertexBuffer.h"
+	"IIndexBuffer.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IMeshBuffer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"aabbox3d.h"
+	"S3DVertex.h"
+	"SVertexIndex.h"
+	"EHardwareBufferFlags.h"
+	"EPrimitiveTypes.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IReferenceCounted.h
+	"irrTypes.h"
+
+1556214730 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SMaterial.h
+	"SColor.h"
+	"matrix4.h"
+	"irrArray.h"
+	"irrMath.h"
+	"EMaterialTypes.h"
+	"EMaterialFlags.h"
+	"SMaterialLayer.h"
+
+1553896404 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SColor.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1464275376 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/matrix4.h
+	"irrMath.h"
+	"vector3d.h"
+	"vector2d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+	"rect.h"
+	"irrString.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/vector2d.h
+	"irrMath.h"
+	"dimension2d.h"
+
+1553896274 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/dimension2d.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/rect.h
+	"irrTypes.h"
+	"dimension2d.h"
+	"position2d.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/position2d.h
+	"vector2d.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/irrString.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/irrAllocator.h
+	"irrTypes.h"
+	<new>
+	<memory.h>
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/irrArray.h
+	"irrTypes.h"
+	"heapsort.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/heapsort.h
+	"irrTypes.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/EMaterialTypes.h
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/EMaterialFlags.h
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SMaterialLayer.h
+	"matrix4.h"
+	"irrAllocator.h"
+
+1553896366 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/S3DVertex.h
+	"vector3d.h"
+	"vector2d.h"
+	"SColor.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SVertexIndex.h
+	"irrTypes.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/EHardwareBufferFlags.h
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/EPrimitiveTypes.h
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IVertexBuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"S3DVertex.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IIndexBuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SVertexIndex.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/CVertexBuffer.h
+	"IVertexBuffer.h"
+
+1352146452 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/CIndexBuffer.h
+	"IIndexBuffer.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/CMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/coreutil.h
+	"irrString.h"
+	"path.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/path.h
+	"irrString.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ECullingTypes.h
+	"irrTypes.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/EDebugSceneTypes.h
+
+1352146452 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/EDriverFeatures.h
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/EDriverTypes.h
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/EGUIAlignment.h
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/EGUIElementTypes.h
+	"irrTypes.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/EMeshWriterEnums.h
+	"irrTypes.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/EMessageBoxFlags.h
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ESceneNodeAnimatorTypes.h
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ESceneNodeTypes.h
+	"irrTypes.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ETerrainElements.h
+
+1485543310 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/fast_atof.h
+	"irrMath.h"
+	"irrString.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IAnimatedMesh.h
+	"aabbox3d.h"
+	"IMesh.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IMesh.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"EHardwareBufferFlags.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IAnimatedMeshMD2.h
+	"IAnimatedMesh.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IAnimatedMeshMD3.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+	"quaternion.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1354587706 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IQ3Shader.h
+	"irrArray.h"
+	"fast_atof.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"coreutil.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IFileSystem.h
+	"IReferenceCounted.h"
+	"IXMLReader.h"
+	"IFileArchive.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IXMLReader.h
+	"IReferenceCounted.h"
+	"irrXML.h"
+
+1359485970 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/irrXML.h
+	<stdio.h>
+	"IrrCompileConfig.h"
+	<irrXML.h>
+	<string>
+	<irrXML.h>
+	<irrXML.h>
+	<irrXML.h>
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IFileArchive.h
+	"IReadFile.h"
+	"IFileList.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IReadFile.h
+	"IReferenceCounted.h"
+	"coreutil.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IFileList.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1630071558 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IVideoDriver.h
+	"rect.h"
+	"SColor.h"
+	"ITexture.h"
+	"irrArray.h"
+	"matrix4.h"
+	"plane3d.h"
+	"dimension2d.h"
+	"position2d.h"
+	"SMaterial.h"
+	"IMeshBuffer.h"
+	"triangle3d.h"
+	"EDriverTypes.h"
+	"EDriverFeatures.h"
+	"SExposedVideoData.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ITexture.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"dimension2d.h"
+	"EDriverTypes.h"
+	"path.h"
+	"matrix4.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IImage.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+	"SColor.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/triangle3d.h
+	"vector3d.h"
+	"line3d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SExposedVideoData.h
+
+1381259772 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/quaternion.h
+	"irrTypes.h"
+	"irrMath.h"
+	"matrix4.h"
+	"vector3d.h"
+
+1440600484 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/irrpack.h
+
+1441635224 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/irrunpack.h
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IAnimatedMeshSceneNode.h
+	"ISceneNode.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ISceneNode.h
+	"IAttributeExchangingObject.h"
+	"ESceneNodeTypes.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"ISceneNodeAnimator.h"
+	"ITriangleSelector.h"
+	"SMaterial.h"
+	"irrString.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"irrList.h"
+	"IAttributes.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IAttributeExchangingObject.h
+	"IReferenceCounted.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ISceneNodeAnimator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"ESceneNodeAnimatorTypes.h"
+	"IAttributeExchangingObject.h"
+	"IEventReceiver.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IEventReceiver.h
+	"ILogger.h"
+	"Keycodes.h"
+	"irrString.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ILogger.h
+	"IReferenceCounted.h"
+
+1490469604 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/Keycodes.h
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ITriangleSelector.h
+	"IReferenceCounted.h"
+	"triangle3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"line3d.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/irrList.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IAttributes.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"vector3d.h"
+	"vector2d.h"
+	"line2d.h"
+	"line3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"rect.h"
+	"dimension2d.h"
+	"matrix4.h"
+	"quaternion.h"
+	"plane3d.h"
+	"triangle3d.h"
+	"line2d.h"
+	"line3d.h"
+	"irrString.h"
+	"irrArray.h"
+	"IXMLReader.h"
+	"EAttributes.h"
+	"path.h"
+
+1630071554 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/line2d.h
+	"irrTypes.h"
+	"vector2d.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/EAttributes.h
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IBoneSceneNode.h
+	"ISceneNode.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IBillboardSceneNode.h
+	"ISceneNode.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IBillboardTextSceneNode.h
+	"IBillboardSceneNode.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ICameraSceneNode.h
+	"ISceneNode.h"
+	"IEventReceiver.h"
+
+1359480304 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ICursorControl.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IDummyTransformationSceneNode.h
+	"ISceneNode.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGeometryCreator.h
+	"IReferenceCounted.h"
+	"IMesh.h"
+	"IImage.h"
+
+1630071558 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGPUProgrammingServices.h
+	"EShaderTypes.h"
+	"EMaterialTypes.h"
+	"EPrimitiveTypes.h"
+	"path.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/EShaderTypes.h
+	"irrTypes.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIButton.h
+	"IGUIElement.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIElement.h
+	"IAttributeExchangingObject.h"
+	"irrList.h"
+	"rect.h"
+	"irrString.h"
+	"IEventReceiver.h"
+	"EGUIElementTypes.h"
+	"EGUIAlignment.h"
+	"IAttributes.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUICheckBox.h
+	"IGUIElement.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIColorSelectDialog.h
+	"IGUIElement.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIComboBox.h
+	"IGUIElement.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIContextMenu.h
+	"IGUIElement.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIEditBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIElementFactory.h
+	"IReferenceCounted.h"
+	"EGUIElementTypes.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIEnvironment.h
+	"IReferenceCounted.h"
+	"IGUISkin.h"
+	"rect.h"
+	"EMessageBoxFlags.h"
+	"IEventReceiver.h"
+	"IXMLReader.h"
+	"path.h"
+
+1410996190 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUISkin.h
+	"IAttributeExchangingObject.h"
+	"EGUIAlignment.h"
+	"SColor.h"
+	"rect.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIFileOpenDialog.h
+	"IGUIElement.h"
+	"path.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIFont.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"rect.h"
+	"irrString.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIFontBitmap.h
+	"IGUIFont.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIImage.h
+	"IGUIElement.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIInOutFader.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIListBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIMeshViewer.h
+	"IGUIElement.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIScrollBar.h
+	"IGUIElement.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUISpinBox.h
+	"IGUIElement.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUISpriteBank.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SColor.h"
+	"rect.h"
+
+1603740108 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIStaticText.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUITabControl.h
+	"IGUIElement.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUITable.h
+	"IGUIElement.h"
+	"irrTypes.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIToolbar.h
+	"IGUIElement.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIWindow.h
+	"IGUIElement.h"
+	"EMessageBoxFlags.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUITreeView.h
+	"IGUIElement.h"
+	"IGUIImageList.h"
+	"irrTypes.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IGUIImageList.h
+	"IGUIElement.h"
+	"rect.h"
+	"irrTypes.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IImageLoader.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"path.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IImageWriter.h
+	"IReferenceCounted.h"
+	"irrString.h"
+	"coreutil.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ILightSceneNode.h
+	"ISceneNode.h"
+	"SLight.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SLight.h
+	"SColor.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IMaterialRenderer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IMaterialRendererServices.h
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IMeshCache.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IMeshLoader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IMeshManipulator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IAnimatedMesh.h"
+	"IMeshBuffer.h"
+	"SVertexManipulator.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SVertexManipulator.h
+	"S3DVertex.h"
+	"SColor.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IMeshSceneNode.h
+	"ISceneNode.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IMeshWriter.h
+	"IReferenceCounted.h"
+	"EMeshWriterEnums.h"
+
+1630071554 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IColladaMeshWriter.h
+	"IMeshWriter.h"
+	"ISceneNode.h"
+	"IAnimatedMesh.h"
+	"SMaterial.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IMetaTriangleSelector.h
+	"ITriangleSelector.h"
+
+1490469454 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IOSOperator.h
+	"IReferenceCounted.h"
+	"irrString.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IParticleSystemSceneNode.h
+	"ISceneNode.h"
+	"IParticleAnimatedMeshSceneNodeEmitter.h"
+	"IParticleBoxEmitter.h"
+	"IParticleCylinderEmitter.h"
+	"IParticleMeshEmitter.h"
+	"IParticleRingEmitter.h"
+	"IParticleSphereEmitter.h"
+	"IParticleAttractionAffector.h"
+	"IParticleFadeOutAffector.h"
+	"IParticleGravityAffector.h"
+	"IParticleRotationAffector.h"
+	"dimension2d.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IParticleAnimatedMeshSceneNodeEmitter.h
+	"IParticleEmitter.h"
+	"IAnimatedMeshSceneNode.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IParticleEmitter.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SParticle.h
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IParticleBoxEmitter.h
+	"IParticleEmitter.h"
+	"aabbox3d.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IParticleCylinderEmitter.h
+	"IParticleEmitter.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IParticleMeshEmitter.h
+	"IParticleEmitter.h"
+	"IMesh.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IParticleRingEmitter.h
+	"IParticleEmitter.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IParticleSphereEmitter.h
+	"IParticleEmitter.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IParticleAttractionAffector.h
+	"IParticleAffector.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IParticleAffector.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IParticleFadeOutAffector.h
+	"IParticleAffector.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IParticleGravityAffector.h
+	"IParticleAffector.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IParticleRotationAffector.h
+	"IParticleAffector.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IQ3LevelMesh.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IRandomizer.h
+	"IReferenceCounted.h"
+
+1571681108 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IrrlichtDevice.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+	"IVideoDriver.h"
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"IEventReceiver.h"
+	"ICursorControl.h"
+	"IVideoModeList.h"
+	"ITimer.h"
+	"IOSOperator.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/EDeviceTypes.h
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IVideoModeList.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ITimer.h
+	"IReferenceCounted.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/irrMap.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ISceneCollisionManager.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"line3d.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ISceneLoader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1371481758 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ISceneManager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+	"path.h"
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+	"ETerrainElements.h"
+	"ESceneNodeTypes.h"
+	"ESceneNodeAnimatorTypes.h"
+	"EMeshWriterEnums.h"
+	"SceneParameters.h"
+	"IGeometryCreator.h"
+	"ISkinnedMesh.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SceneParameters.h
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ISkinnedMesh.h
+	"irrArray.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMesh.h"
+	"SSkinMeshBuffer.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SSkinMeshBuffer.h
+	"IMeshBuffer.h"
+	"S3DVertex.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ISceneNodeAnimatorCameraFPS.h
+	"ISceneNodeAnimator.h"
+	"IEventReceiver.h"
+	"irrArray.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ISceneNodeAnimatorCameraMaya.h
+	"ISceneNodeAnimator.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ISceneNodeAnimatorCollisionResponse.h
+	"ISceneNode.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ISceneNodeAnimatorFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeAnimatorTypes.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ISceneNodeFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeTypes.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ISceneUserDataSerializer.h
+	"IReferenceCounted.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IShaderConstantSetCallBack.h
+	"IReferenceCounted.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IShadowVolumeSceneNode.h
+	"ISceneNode.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ITerrainSceneNode.h
+	"ETerrainElements.h"
+	"ISceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"irrArray.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ITextSceneNode.h
+	"ISceneNode.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IVolumeLightSceneNode.h
+	"ISceneNode.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IWriteFile.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/IXMLWriter.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/ILightManager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SAnimatedMesh.h
+	"IAnimatedMesh.h"
+	"IMesh.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SIrrCreationParameters.h
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"dimension2d.h"
+	"ILogger.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SKeyMap.h
+	"Keycodes.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SMesh.h
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SMeshBuffer.h
+	"CMeshBuffer.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SMeshBufferLightMap.h
+	"CMeshBuffer.h"
+
+1351980514 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SMeshBufferTangents.h
+	"CMeshBuffer.h"
+
+1351980512 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SSharedMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1553896168 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/SViewFrustum.h
+	"plane3d.h"
+	"vector3d.h"
+	"line3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IVideoDriver.h"
+
+1636997623 /home/kali/Documents/QuadcopterSimulation/irr_event_receiver.h
+	<irrlicht.h>
+	"driverChoice.h"
+	"irr_keytimer.h"
+
+1351980510 /home/kali/Documents/QuadcopterSimulation/irrlicht-1.8.5/include/driverChoice.h
+	<iostream>
+	<cstdio>
+	"EDriverTypes.h"
+	"irrTypes.h"
+	"IrrlichtDevice.h"
+
+1636997623 /home/kali/Documents/QuadcopterSimulation/irr_keytimer.h
+	<ctime>
+
+1636997623 source:/home/kali/Documents/QuadcopterSimulation/irr_renderer.cpp
+	"irr_renderer.h"
+
+1636997623 /home/kali/Documents/QuadcopterSimulation/irr_renderer.h
+	<irrlicht.h>
+	"irr_event_receiver.h"
+	"irr_coordinate_axes.h"
+	"irr_quadcopter_3D.h"
+
+1636997623 /home/kali/Documents/QuadcopterSimulation/irr_coordinate_axes.h
+	<irrlicht.h>
+
+1636997623 source:/home/kali/Documents/QuadcopterSimulation/PID.cpp
+	<math.h>
+	"mathHelp.h"
+	"PID.h"
+
+1636997623 /home/kali/Documents/QuadcopterSimulation/PID.h
+	"config.h"
+
+1637764233 source:/home/kali/Documents/QuadcopterSimulation/main.cpp
+	<thread>
+	<time.h>
+	<sys/time.h>
+	"main_config.h"
+	"quadcopter.h"
+	"irr_renderer.h"
+
+1637690152 /home/kali/Documents/QuadcopterSimulation/main_config.h
+	<stdint.h>
+
+1636997623 /home/kali/Documents/QuadcopterSimulation/quadcopter.h
+
+1636997623 source:/home/kali/Documents/QuadcopterSimulation/sensorFusion.cpp
+	<math.h>
+	"sensorFusion.h"
+
+1637761603 /home/kali/Documents/QuadcopterSimulation/sensorFusion.h
+	</home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Dense>
+	"config.h"
+	"mathHelp.h"
+	"complementaryFilter.h"
+
+1636997623 source:/home/kali/Documents/QuadcopterSimulation/timer.cpp
+	<stdio.h>
+	<chrono>
+	"timer.h"
+
+1636997623 /home/kali/Documents/QuadcopterSimulation/timer.h
+	<time.h>
+	"config.h"
+
+1636997623 source:/home/kali/Documents/QuadcopterSimulation/utils_diffequation.cpp
+	<math.h>
+	"config.h"
+	"utils_diffequation.h"
+
+1629319318 /home/kali/Documents/QuadcopterSimulation/eigen-3.4.0/Eigen/src/Core/arch/HIP/hcc/math_constants.h
+
+1637761603 source:/home/kali/Documents/QuadcopterSimulation/quadcopter.cpp
+	<thread>
+	<mutex>
+	<stdlib.h>
+	<time.h>
+	</home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Dense>
+	"config.h"
+	"mathHelp.h"
+	"quadcopter.h"
+	"utils_diffequation.h"
+	"receiver.h"
+	"barometer.h"
+	"magnetometer.h"
+	"gyroscope.h"
+	"accelerometer.h"
+	"sensorFusion.h"
+	"stabilizer.h"
+	"esc_motor.h"
+	"timer.h"
+
+1637772799 /home/kali/Documents/QuadcopterSimulation/receiver.h
+	</home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Dense>
+
+1637764696 /home/kali/Documents/QuadcopterSimulation/stabilizer.h
+	<vector>
+	</home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Dense>
+	"config.h"
+	"PID.h"
+
+1636997623 source:/home/kali/Documents/QuadcopterSimulation/stabilizer.cpp
+	"mathHelp.h"
+	"stabilizer.h"
+
+1637772785 source:/home/kali/Documents/QuadcopterSimulation/receiver.cpp
+	"config.h"
+	"mathHelp.h"
+	"receiver.h"
+	"linux/input-event-codes.h"
+	<stdint.h>
+	<ncurses.h>
+	<thread>
+

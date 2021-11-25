@@ -18,17 +18,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifndef QS_RECEIVER_H
 #define QS_RECEIVER_H
 
-#include <Eigen/Dense>
+#include </home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Dense>
 
 using namespace Eigen;
 
 class receiver
 {
 	public:
-	
+
 		receiver();
 		~receiver();
-		
+
 		// in radians
 		void get_desired_theta(Vector3d &theta_d);
 
@@ -37,9 +37,9 @@ class receiver
 
 		// always return zero
 		void block_receiver(bool blocked);
-		
+
 	private:
-	
+
 		// pwm signals when a certain key is pressed
 		double roll_pwm;
 		double pitch_pwm;
@@ -50,7 +50,7 @@ class receiver
 		bool output_blocked;
 
 		// functions
-		char keypressed();
+		bool keypressed(char keyvalue);
 };
 
 #endif
