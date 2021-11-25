@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define QS_CONTROL_CONTROLLER_H
 
 #include <vector>
-#include <Eigen/Dense>
+#include </home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Dense>
 #include "config.h"
 #include "PID.h"
 
@@ -40,15 +40,15 @@ typedef enum
 class stabilizer
 {
 	public:
-	
+
 		stabilizer();
 		~stabilizer();
-		
+
 		void setInitYawLock(double yawInitlock);
 		void setInitHeightLock(double heightInitlock);
 		void resetIntegrals();
 		void setFlightMode(stable_flight_mode flight_mode_arg);
-		void stabilizer::compute_pwmDutyCycle( 	Vector4d *pwmDutyCycle,
+		void compute_pwmDutyCycle ( Vector4d *pwmDutyCycle,
 												Vector3d RPY_is,
 												Vector3d RPYDot_is,
 												double height_is,
@@ -58,15 +58,15 @@ class stabilizer
 												double pitch_rx,
 												double yaw_rx,
 												double thrust_rx);
-		
+
 	private:
-	
+
 		stable_flight_mode flight_mode;
 
 		// two stage PID cascade
 		PID pidRoll[2];
 		PID pidPitch[2];
-		
+
 		// first pid for locked yaw, second pid for yaw rotation
 		PID pidYaw[2];
 		double yawLock;
@@ -74,7 +74,7 @@ class stabilizer
 		// first pid for locked height
 		PID pidHeight[2];
 		double heightLock;
-		
+
 		// transformation function
 		Vector3d getBodyRatesFromEulerRates(Vector3d eulerAngles, Vector3d eulerRatesDesired);
 		double getBodyVerticalFromEarthVertical(Vector3d eulerAngles, double earthVertical);

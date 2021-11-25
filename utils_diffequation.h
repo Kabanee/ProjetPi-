@@ -21,7 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifndef QS_UTILS_DIFFEQUATION_UTILS_DIFFEQUATION_H
 #define QS_UTILS_DIFFEQUATION_UTILS_DIFFEQUATION_H
 
-#include <Eigen/Dense>
+#include </home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Dense>
 
 using namespace Eigen;
 

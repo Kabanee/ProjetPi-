@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifndef QS_SENSORFUSION_H
 #define QS_SENSORFUSION_H
 
-#include <Eigen/Dense>
+#include </home/kali/Downloads/quadcopter-simulation/quadcopter_simulation/eigen-3.4.0/Eigen/Dense>
 #include "config.h"
 #include "mathHelp.h"
 #include "complementaryFilter.h"
